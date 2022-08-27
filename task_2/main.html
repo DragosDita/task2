@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.png">
+    <title>BootStrap</title>
+
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">User Favourites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Forums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Movies</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+
+                <div class="d-flex align-items-center">
+                    <button type="button" class="btn btn-link px-3 me-2">
+          Register
+        </button>
+                    <button type="button" class="btn btn-link px-3 me-2">
+          Log In
+        </button>
+                    <button type="button" class="btn btn-link px-3 me-2">
+          Help
+        </button>
+                </div>
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- HEADING -->
+
+    <div class=" w-100  d-flex justify-content-center header-container">
+        <!--FOR ADVERTISING-->
+        <img src="#" class="w-25 p-3 rounded float-left  " alt="">
+
+        <div class=" w-50 p-3 d-flex flex-column ">
+            <div class='form-group'>
+                <img src="./img/logo.png" class="img-fluid  " alt="">
+            </div>
+            <ul class=' nav nav-pills nav-fill d-flex justify-content-around  h-100'>
+                <li class=" header-button text-dark nav-item border  mr-4 d-flex justify-content-center align-items-center" style="cursor:pointer ; background-color: rgb(187, 186, 186);">
+                    Box Office Mojo</li>
+                <li class="header-button text-dark nav-item border  mr-4 d-flex justify-content-center align-items-center" style="cursor:pointer ; background-color: rgb(187, 186, 186);">
+                    IMDb Pro</li>
+                <li class="header-button text-dark nav-item border mr-4 d-flex justify-content-center align-items-center" style="cursor:pointer ; background-color: rgb(187, 186, 186);">
+                    IMDb Resume</li>
+            </ul>
+        </div>
+
+        <img src="" class="w-25 p-3 rounded float-right second-advertisment" alt="">
+    </div>
+
+    <!-- MENU-->
+
+    <ul class="nav nav-pills  nav-fill d-flex justify-content-around bg-secondary mx-3">
+        <li class="nav-item border bg-light">
+            <a class="nav-link accordion-item text-dark h3 d-flex justify-content-center align-items-center" href="#" style="cursor:pointer ;">MOVIES</a>
+        </li>
+        <li class="nav-item border bg-light">
+            <a class="nav-link accordion-item text-dark h3 d-flex justify-content-center align-items-center" href="#" style="cursor:pointer ;">TV</a>
+        </li>
+        <li class="nav-item border bg-light">
+            <a class="nav-link accordion-item text-dark h3 d-flex justify-content-center align-items-center" href="#" style="cursor:pointer ;">NEWS</a>
+        </li>
+        <li class="nav-item border bg-light">
+            <a class="nav-link accordion-item text-dark h3 d-flex justify-content-center align-items-center" href="#" style="cursor:pointer ;">VIDEOS</a>
+        </li>
+        <li class="nav-item border bg-light">
+            <a class="nav-link accordion-item text-dark h3 d-flex justify-content-center align-items-center" href="#" style="cursor:pointer ;">TRIVIA</a>
+        </li>
+    </ul>
+
+    <!-- navbar 2 -->
+
+    <nav class="navbar navbar-light p-4 m-3" style="background-color: rgb(187, 186, 186);">
+        <form class="form-inline w-100 search-form">
+            <div class="h5 text-dark pr-2 d-flex align-self-start pr-3 pb-3 ">Search</div>
+            <input class="form-control mr-sm-4 w-50" type="search"><br>
+            <button class="btn mr-3" type="submit" style="cursor:pointer m-2 ;">GO</button>
+            <div class="pl-4 d-flex align-self-end m-3 " style="cursor:pointer ;">Advanced search</div>
+
+        </form>
+    </nav>
+
+    <!--WAITIN' -->
+
+
+
+    <div class="mx-3 content-container">
+
+
+        <div class="d-flex align-items-start spotlight-container">
+            <div class="" style="background-color: rgb(187, 186, 186);">
+                Video Spotlight
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center " style="height: 274px; background-color: rgb(233, 227, 227);">
+                    <img src="#" style="max-width:100%;max-height:100%; object-fit: cover;" alt="MOVIES">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 274px; background-color: rgb(233, 227, 227);">
+                    <img src="#" style="max-width:100%; max-height:100%; object-fit: cover;" alt="TV">
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 274px; background-color: rgb(233, 227, 227);">
+                    <img src="#" style="max-width:100%; max-height:100%; object-fit: cover;" alt="DVD/Blu-ray">
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 274px; background-color: rgb(233, 227, 227);">
+                    <img src="#" style="max-width:100%; max-height:100%; object-fit: cover;" alt="NEWS">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 274px; background-color: rgb(187, 186, 186);">TOPS AT
+                    <Br> THE BOX OFFICE</div>
+
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 252px; background-color: rgb(187, 186, 186);">OPENING <br> THIS WEEK
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 534px; background-color: rgb(187, 186, 186);">NEWS</div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 274px; background-color: rgb(233, 227, 227);">PHOTO GALLERY
+                    <img src="#" style="max-width:100%; max-height:100%; object-fit: cover;" alt="">
+                </div>
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 252px; background-color: rgb(187, 186, 186);">BIRTHDAYS</div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 270px; background-color: rgb(187, 186, 186);">NEWS ON <br> DVD/Blu-Ray
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="border  h4 text-break text-center d-flex justify-content-center align-items-center" style="height: 274px; background-color: rgb(233, 227, 227);"> ADVERTISEMENT
+                    <img src="#" style=" max-width:100%; max-height:100%; object-fit: cover;" alt="">
+                </div>
+            </div>
+
+            <div class=" col-md-3 ">
+                <div class="border h4 text-break text-center d-flex justify-content-center align-items-center " style="height: 270px; background-color: rgb(187, 186, 186); ">Trivia</div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- countries -->
+
+    <ul class="nav nav-pills d-flex justify-content-center mx-3 ">
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">IMDb
+                Germany</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">IMDb
+                Italy</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">IMDb
+                Spain</a>
+        </li>
+    </ul>
+
+
+    <!-- footer with many things-->
+
+    <ul class="nav nav-pills d-flex justify-content-around mx-3 ">
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Home</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Search</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Movies</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                TV</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                News</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Video</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Trivia</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Forums</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                My Movies</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Register</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Help</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                RSS</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Twitter</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Advertising</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-item text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Jobs</a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link accordion-itemd text-dark h6 d-flex justify-content-center align-items-center " href="# ">
+                Site Map</a>
+        </li>
+
+
+    </ul>
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+
+</body>
+
+</html>
